@@ -1,0 +1,3 @@
+INSERT INTO `category` (`id`, `code`, `name`, `icon`, `path`, `weight`, `groupId`, `parentId`, `description`, `orgId`, `orgCode`) VALUES (1,'default','默认分类','','',0,1,0,NULL,1,'1.'),(2,'classroomdefault','默认分类','','',0,2,0,NULL,1,'1.');
+INSERT INTO `category_group` (`id`, `code`, `name`, `depth`) VALUES (1,'course','课程分类',3),(2,'classroom','班级分类',3);
+INSERT INTO `cloud_app` (`id`, `name`, `code`, `type`, `protocol`, `description`, `icon`, `version`, `fromVersion`, `developerId`, `developerName`, `installedTime`, `updatedTime`, `edusohoMinVersion`, `edusohoMaxVersion`) VALUES (1,'EduSoho主系统','MAIN','core',3,'<p>EduSoho主系统</p>\r\n','MAIN/MAIN_icon.png','8.7.15','8.7.14',1,'EduSoho官方',1515723926,1596422685,'8.5.0','up');
